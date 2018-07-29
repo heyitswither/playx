@@ -8,10 +8,10 @@ due to all those crawling shit
 
 from bs4 import BeautifulSoup
 import requests
-from stringutils import remove_multiple_spaces, replace_space, replace_character
-from cache import Cache
+from .stringutils import remove_multiple_spaces, replace_space, replace_character
+from .cache import Cache
 
-from utility import exe
+from .utility import exe
 
 
 class YoutubeMetadata:
